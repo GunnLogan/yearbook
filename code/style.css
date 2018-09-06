@@ -1,10 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
 html {
   background: #0025FF;
-  color: #fff;
+  color: black;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 20pt;
 }
 
 header {
   padding: 20px;
+  text-align: center;
+}
+
+.yearbook{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.name{
+  min-height: 70px;
+  min-width: 100px;
 }
 
 .logo {
@@ -19,4 +36,27 @@ header {
 .logo img {
   width: 140px;
   margin-top: 55px;
+}
+
+.photoframe img{
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner{
+  margin: 10px;
+  background-color: white;
+  padding: 10px 10px 10px 10px
+}
+
+.photoframe {
+  float:left;
+  text-align: center;
+  width: 33%;
+  height: auto;
+  min-height: 250px;
+  min-width: 200px;
 }
